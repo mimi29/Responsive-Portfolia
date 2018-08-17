@@ -1,0 +1,22 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 980px) {
+  body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background: url("../images/980-index.jpg");
+  }
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 768px) {
+  body {
+    background: url("../images/768-index.jpg");
+  }
+}
+
+  @media screen and (max-width: 640px) {
+    body {
+      background: url("../images/640-index.jpg");
+    }
